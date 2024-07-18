@@ -1,6 +1,6 @@
 import torch
 import torch.nn.functional as F
-import create_pytorch_data_object as DL
+import data_loader as DL
 
 data_loader = DL.LocalDataLoader().get_data_loader('unified_dataset_10000.csv', 'data')
 
